@@ -1,0 +1,12 @@
+canvas{
+  height: 100vh !important;
+}
+.loading_page{
+  margin: 0; /* Remove default margin */
+  height: 100vh;
+  background-image: url("./assets/pictures/loading_page.png");
+  background-size: cover; /* Scale image to cover the screen */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: fill; /* Center the image */
+  align-items: center;
+}
