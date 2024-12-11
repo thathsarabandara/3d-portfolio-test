@@ -1,0 +1,11 @@
+Model Information:
+* title:	Initial D AE86 Toyota Corolla
+* source:	https://sketchfab.com/3d-models/initial-d-ae86-toyota-corolla-3594fc0137aa4727b3aa6ddc6575c84c
+* author:	travislikes3d (https://sketchfab.com/travislikes3d)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Initial D AE86 Toyota Corolla" (https://sketchfab.com/3d-models/initial-d-ae86-toyota-corolla-3594fc0137aa4727b3aa6ddc6575c84c) by travislikes3d (https://sketchfab.com/travislikes3d) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
