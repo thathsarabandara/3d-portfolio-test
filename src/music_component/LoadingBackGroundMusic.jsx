@@ -15,7 +15,7 @@ const LoadingBackgroundMusic = ({ musicFile, volume = 0.5, loop = true }) => {
     // Stop the music after 21 seconds
     const timer = setTimeout(() => {
       sound.stop();
-    }, 31000); // 21000 milliseconds = 21 seconds
+    }, 34000); // 21000 milliseconds = 21 seconds
 
     return () => {
       // Clean up the timer and stop the music when the component unmounts

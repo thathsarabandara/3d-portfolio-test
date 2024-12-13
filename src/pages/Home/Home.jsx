@@ -11,14 +11,14 @@ function Home() {
   const [text, setText] = useState('');
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-  const words = ['FrontEnd Developer_', 'BackEnd Developer_','Mobile Developer_','_AI Enthus'];
+  const words = ['A Passionate Software Eng. Student_','At Faculty of Computing USJ_','FrontEnd Developer_', 'BackEnd Developer_','Mobile Developer_','AI Enthusiast_', 'IOT Enthusiast_'];
   
   const roleFunction = () => {
     let offset = 0;
     let skip_count = 0;
     let forwards = true;
-    let skip_delay = 15;
-    let speed = 85;
+    let skip_delay = 20;
+    let speed = 95;
     
     const wordFlick = () => {
       const currentWord = words[currentWordIndex];

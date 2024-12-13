@@ -3,13 +3,16 @@ import './NavBtn.css';
 import soundFile from '../../assets/hover.mp3'
 import { Howl } from 'howler';
 import clickFile from '../../assets/transistion.mp3';
+import { useNavigate } from 'react-router-dom';
 
 // Props-based NavBtn Component
 function NavBtn({ 
   text = 'Home', // Default text for the button
   iconClass = 'fa fa-home', // Default icon class
-  onMouseEnterAction, // Function to execute on mouse enter
+  onMouseEnterAction,
+  to // Function to execute on mouse enter
 }) {
+  const navigate = useNavigate();
   // Function to handle mouse enter event
   const handleMouseEnter = () => {
     if (onMouseEnterAction) {
@@ -31,6 +34,9 @@ function NavBtn({
         volume: [0.1],
       });
       audio.play();
+    }
+    if(to){
+      navigate(to);
     }
   }
 
