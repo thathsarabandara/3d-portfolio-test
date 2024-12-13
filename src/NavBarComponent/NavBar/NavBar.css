@@ -1,0 +1,10 @@
+.side-buttons-container {
+    position: fixed; /* Fix the container to the viewport */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically with respect to its height */
+    display: flex;
+    flex-direction: column; /* Align buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 0px; /* Space between buttons */
+    left: 0; /* Align container to the left side */
+}

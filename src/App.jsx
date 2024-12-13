@@ -6,10 +6,12 @@ import LoadingPage from './pages/LoadingPage/LoadingPage';
 import Home from './pages/HomePage/Home';
 import LoadingBackgroundMusic from './music_component/LoadingBackGroundMusic';
 import musicFile from './assets/transistion.mp3';
+import NavBar from './NavBarComponent/NavBar/NavBar';
 
 function App() {
   return (
     <Router>
+      <NavBar />
       <Routes>
         <Route path="/" element={<LoadingWrapper />} />
         <Route path="/home" element={<Home />} />

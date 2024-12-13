@@ -1,0 +1,131 @@
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@font-face {
+    font-family: 'loading';
+    src: url('/assets/fonts/Rovelink.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    background-color: black;
+}
+
+.side-btn {
+    position: relative;
+    border: 2px solid;
+    width: 60px; /* Reduced width of the button */
+    height: 100px; /* Reduced height of the button */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0; /* Reduced gap between child elements */
+    transition: transform 0.3s ease;
+    left: -30px; /* Adjusted to fit the new size */
+    border: none;
+}
+
+.side-btn:hover {
+    transform: translateX(30px); /* Adjusted to fit the new size */
+}
+
+/* Additional styling as needed */
+.big-text-part {
+    width: 30px; /* Reduced width */
+    height: 120px; /* Reduced height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-row {
+    border: 1px  solid black;
+    background-color: #FFEE08;
+    width: 32px; /* Reduced width */
+    height: 90px; /* Reduced height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-row {
+    background-color: #FFEE08;
+    width: 30px; /* Reduced width */
+    height: 8px; /* Reduced height */
+}
+
+.dec-row {
+    width: 30px; /* Reduced width */
+    height: 5px; /* Reduced height */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.triangle1, .triangle2, .triangle3, .triangle4 {
+    width: 0;
+    height: 0;
+}
+
+.triangle1 {
+    border-left: 4px solid transparent; /* Reduced size */
+    border-right: 6px solid #FFEE08; /* Reduced size */
+    border-top: 4px solid transparent; /* Reduced size */
+}
+
+.rectangle {
+    background-color: #FFEE08;
+    width: 10px; /* Reduced width */
+    height: 4px; /* Reduced height */
+}
+
+.triangle2 {
+    border-left: 6px solid #FFEE08; /* Reduced size */
+    border-right: 4px solid transparent; /* Reduced size */
+    border-top: 4px solid transparent; /* Reduced size */
+}
+
+.rectangle2 {
+    background-color: #FFEE08;
+    width: 8px; /* Reduced width */
+    height: 4px; /* Reduced height */
+}
+
+.rectangle3 {
+    background-color: #FFEE08;
+    width: 8px; /* Reduced width */
+    height: 4px; /* Reduced height */
+}
+
+.triangle3 {
+    border-left: 4px solid #FFEE08; /* Reduced size */
+    border-right: 4px solid transparent; /* Reduced size */
+    border-bottom: 4px solid transparent; /* Reduced size */
+}
+
+.triangle4 {
+    border-left: 6px solid transparent; /* Reduced size */
+    border-right: 4px solid #FFEE08; /* Reduced size */
+    border-bottom: 4px solid transparent; /* Reduced size */
+}
+
+.icon-part {
+    /* border: 2px solid #FFEE08; */
+    width: 4rem; /* Reduced size */
+    height: 2rem; /* Reduced size */
+    color: #FFEE08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    transform: rotate(-90deg);
+    font-family: "loading", "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; /* Reduced font size */
+    text-align: center;
+    color: black;
+}
