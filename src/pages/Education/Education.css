@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'subtext';
+  src: url('/assets/fonts/BrokenConsole.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:start;
+}
+.h1-area{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.title{
+  font-family: 'subtext';
+  font-size: 1.5rem;
+}
