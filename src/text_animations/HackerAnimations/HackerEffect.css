@@ -1,0 +1,19 @@
+/* Scoped CSS for HackerEffect component */
+
+@font-face {
+    font-family: 'subtext';
+    src: url('/assets/fonts/education.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.title {
+    font-family: "subtext";
+    font-size: 2rem;
+    color: green;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+  }
+  

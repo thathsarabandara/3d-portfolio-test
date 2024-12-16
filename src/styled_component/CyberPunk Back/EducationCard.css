@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'sub-text';
+    src: url('/assets/fonts/edu_sub.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.cyber-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Fixed typo: start */
+    justify-content: flex-start; /* Fixed typo: start */
+    gap: 0;
+    width: 0; /* Start width at 0 */
+    overflow: hidden; /* Ensures content inside doesn't spill out during animation */
+    animation: loading 1s ease-in-out forwards; /* Keep animation */
+    animation-delay:11s;
+}
+
+.vertical-col-1{
+    display: flex;
+    flex-direction: column;
+    allign-items: start;
+    justify-content: start;
+    gap: 0;
+}
+.col-1-trian1{
+    width: 0;
+    height: 0;
+    border-left: 1vw solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 2vh solid #FFEE08; 
+}
+.col-1-rectan1{
+    width: 1vw;
+    height: 8vh;
+    background-color: #FFEE08;
+}
+.col-1-shape{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+.shape-part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8vh
+}
+.shape-part1-trian1{
+    width: 0;
+    height: 0;
+    border-left: 0.3vw solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 1vh solid #FFEE08; 
+}
+.shape-part1-trian2{
+    width: 0;
+    height: 0;
+    border-left: 0.3vw solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 1vh solid #FFEE08; 
+}
+.shape-part2{
+    width: 0.71vw;
+    height: 9.92vh;
+    background-color: #FFEE08;
+}
+.col-1-rectan2{
+    width: 1vw;
+    height: 25vh;
+    background-color: #FFEE08;
+}
+.col-1-trian2{
+    width: 0;
+    height: 0;
+    border-left: 1vw solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 2vh solid #FFEE08; 
+}
+.vertical-col-2{
+    display: flex;
+    flex-direction: column;
+    allign-items: start;
+    justify-content: start;
+    gap: 0;
+}
+.col-2-row-1{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+.col-2-rectan1{
+    width: 22vw;
+    height: 2.1vh;
+    background-color: #FFEE08;
+}
+.col-2-shape{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+.shape2-part1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.1vw
+}
+.shape2-part1-trian1{
+    width: 0;
+    height: 0;
+    border-left: 0vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 1vh solid #FFEE08; 
+}
+.shape2-part1-trian2{
+    width: 0;
+    height: 0;
+    border-left: 1vw solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 1vh solid #FFEE08; 
+}
+.shape2-part2{
+    width: 8vw;
+    height: 1.1vh;
+    background-color: #FFEE08;
+}
+.col-2-rectan2{
+    width: 10.25vw;
+    height: 2.1vh;
+    background-color: #FFEE08;
+}
+.col-2-row-2{
+    width: 40.25vw;
+    height: 42.6vh;
+    background-color: #FFEE08; 
+}
+.col-2-row-3{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+.row-3-col-2-rectan1{
+    width: 10.1vw;
+    height: 2.1vh;
+    background-color: #FFEE08;
+}
+.row-3-shape-part1{
+    display: flex;
+    flex-direction: row;
+    allign-items: start;
+    justify-content: space-between;
+    gap: 0;
+}
+.row-3-shape-part1-trian1{
+    width: 0;
+    height: 0;
+    border-left: 0vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-top: 1vh solid #FFEE08; 
+}
+.row-3-col-2-shape{
+    display: flex;
+    flex-direction: column;
+    align-items: strat;
+    justify-content: start;
+}
+.row-3-shape-part1-trian2{
+    width: 0;
+    height: 0;
+    border-left: 1vw solid transparent;
+    border-right: 0vw solid transparent;
+    border-top: 1vh solid #FFEE08; 
+}
+.row-3-shape-part2{
+    width: 15vw;
+    height: 1vh;
+    background-color: #FFEE08;
+}
+.row-3-col-3-rectan2{
+    width: 15.15vw;
+    height: 2vh;
+    background-color: #FFEE08;
+}
+.vertical-col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: strat;
+    justify-content: start;
+    gap:0;
+}
+.col-3-train1{
+    width: 0;
+    height: 0;
+    border-left: 0vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 2vh solid #FFEE08; 
+}
+.col-3-rectan{
+    width: 1vw;
+    height: 42.8vh;
+    background-color: #FFEE08;
+}
+.col-3-train2{
+    width: 0;
+    height: 0;
+    border-left: 0vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-top: 2vh solid #FFEE08; 
+}
+.card-area{
+    display: flex;
+    flex-direction: column;
+    align-items: strat;
+    justify-content: start;
+}
+.card-header-area{
+    display: flex;
+    flex-direction: row;
+    align-items: strat;
+    justify-content: start;
+    gap: 1vw;
+}
+.card-header-name-area{
+    display: flex;
+    flex-direction: column;
+    align-items: strat;
+    justify-content: start;
+}
+.institute-name{
+    font-family: 'sub-text';
+    color: black;
+}
+.card-image{
+    width: 4vw;
+}
+@keyframes loading{
+    from{
+        width:0;
+    }
+    to{
+        width:60vw;
+    }
+}

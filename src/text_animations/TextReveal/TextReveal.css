@@ -1,0 +1,21 @@
+/* Scoped CSS for TextReveal component */
+.text-reveal-wrapper h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 70%;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  color: white;
+  text-align: left;
+}
+
+.text-reveal-wrapper .char {
+  color: #fff;
+  transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
+  text-shadow: 0 0 4rem #fff;
+}
+
+.text-reveal-wrapper .char.fade-in {
+  color: #FFEE08;
+  transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
+  text-shadow: 0 0 1rem #0cf;
+}

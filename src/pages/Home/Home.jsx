@@ -79,7 +79,7 @@ function Home() {
       <HomeBackgroundMusic musicFile={file} loop={true}/>
       <div className='text-part'>
         <div className='greeting'>
-          <h1>Hello !</h1>
+          <h1>Welcome</h1>
         </div>
         <div className='name'>
           <hi>I am Thathsara Bandara</hi>

@@ -1,21 +1,75 @@
+/* Education.css */
+
 @font-face {
   font-family: 'subtext';
-  src: url('/assets/fonts/BrokenConsole.otf') format('opentype');
+  src: url('/assets/fonts/education.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-.education{
+
+@font-face {
+  font-family: 'sub-text';
+  src: url('/assets/fonts/edu_sub.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.education {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content:start;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-.h1-area{
+
+.h1-area {
   position: absolute;
   top: 5%;
   left: 5%;
 }
-.title{
+
+.title {
   font-family: 'subtext';
   font-size: 1.5rem;
+  letter-spacing: 0.8rem;
+}
+
+.subtitle-area {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  width: 90%;
+}
+
+.subtitle {
+  font-family: 'sub-text';
+  font-size: 0.9rem;
+  color: #FFFFFF;
+}
+
+/* Keyframe animation for the line */
+@keyframes lineAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15rem; /* You can adjust the width as needed */
+  }
+}
+
+/* Line (underline) style */
+.line {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 0;  /* Initially, width is 0 */
+  height: 2px;  /* Thin line */
+  background-color: #FFEE08;  /* Color of the underline */
+  animation: lineAnimation 1s ease-in-out forwards; /* Apply the animation */
+  animation-delay: 2s;
+}
+.education-card{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 65vw;
 }

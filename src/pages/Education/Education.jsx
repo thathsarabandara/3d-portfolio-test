@@ -1,73 +1,24 @@
 import React, { useEffect, useRef } from 'react';
 import './Education.css';
-import Underline from '../../styled_component/underlineComponent/Underline';
-
-// Function to run the hacker effect
-const runHackerEffect = (element, targetText) => {
-  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  let iterations = 0;
-
-  const interval = setInterval(() => {
-    if (element.current) {
-      element.current.innerText = element.current.innerText
-        .split("")
-        .map((char, index) => {
-          if (index < iterations) {
-            return targetText[index];
-          }
-          return letters[Math.floor(Math.random() * 26)];
-        })
-        .join("");
-    }
-
-    if (iterations >= targetText.length) {
-      clearInterval(interval);
-    }
-    iterations += 1;
-  }, 30);
-
-  // Cleanup interval if needed
-  return () => clearInterval(interval);
-};
+import TextReveal from '../../text_animations/TextReveal/TextReveal';
+import HackerEffect from '../../text_animations/HackerAnimations/HackerEffect';
+import EducationCard from '../../styled_component/CyberPunk Back/EducationCard';
 
 function Education() {
-  const titleRef = useRef(null);
-  const subtitleRef = useRef(null);
-
-  // Trigger hacker effect on component load for both title and subtitle
-  useEffect(() => {
-    if (titleRef.current) {
-      runHackerEffect(titleRef, 'Education');
-    }
-    if (subtitleRef.current) {
-      runHackerEffect(subtitleRef, 'Subtitle');
-    }
-  }, []);
-
-  // Mouse hover effect
-  const handleMouseEnter = () => {
-    if (subtitleRef.current) {
-      runHackerEffect(subtitleRef, 'Subtitle');
-    }
-  };
 
   return (
     <div className='education'>
       <div className='h1-area'>
-        <h1 className='title' ref={titleRef}>
-          Education
-        </h1>
+        <HackerEffect text="Education" />
+        <div className='line' />
       </div>
 
       {/* Subtitle section with mouse hover effect */}
       <div className='subtitle-area'>
-        <h2
-          className='subtitle'
-          ref={subtitleRef}
-          onMouseEnter={handleMouseEnter}
-        >
-          Subtitle
-        </h2>
+        <TextReveal text="Throughout my educational journey, I’ve focused on building a strong foundation of knowledge and practical skills that have shaped my expertise in web development. My studies have been centered on mastering key technologies and understanding the principles of design, programming, and user experience. The pursuit of knowledge has not only equipped me with technical skills but also cultivated a passion for continuous learning and growth. I believe that education is an ongoing process, and I strive to stay up to date with the latest trends and advancements in technology to refine my craft and contribute meaningfully to the field of web development." />
+      </div>
+      <div className='education-card'>
+        <EducationCard className="education-card"/>
       </div>
     </div>
   );
