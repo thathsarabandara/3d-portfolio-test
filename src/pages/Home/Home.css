@@ -25,7 +25,7 @@
 .home .text-part {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 10%; 
     transform: translateY(-50%);
     color: white;
     text-align: left;
