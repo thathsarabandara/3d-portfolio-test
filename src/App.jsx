@@ -13,6 +13,7 @@ import Skill from './pages/Skills/Skill';
 import Project from './pages/Projects/Project';
 import Contact from './pages/Contact/Contact';
 import Controls from './pages/Controls/Controls';
+import MusicPage from './pages/music/MusicPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/projects" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/controls" element={<Controls />} />
+        <Route path="/music" element={<MusicPage />} />
       </Routes>
     </Router>
   );

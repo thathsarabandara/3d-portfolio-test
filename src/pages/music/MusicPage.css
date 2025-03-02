@@ -1,0 +1,129 @@
+.musicpage .col1{
+    display:flex;
+    flex-direction:column;
+}
+.musicpage{
+    width: 190vh;
+    justify-content: space-between;
+}
+.row, .col2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.white{
+    color: #FFF;
+    font-family: "Chakra Petch";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+.hazard{
+    margin-top: -10px;
+}
+
+.playbutton , .speakerbutton {
+    background: none;
+    border: none;
+    padding: 0 6px 50px 6px;
+    cursor: pointer;
+}
+
+#volumeControl {
+    margin-top: 17px;
+    width: 150px;
+    height: 5px;
+    cursor: pointer;
+}
+
+#volumeControl::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #fff;
+}
+
+#volumeControl::-webkit-slider-thumb {
+    margin-top: -5px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#volumeControl::-moz-range-track {
+    height: 5px;
+    background: #fff;
+}
+
+#volumeControl::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.outerbox{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 2px solid #FFF;
+}
+.innerbox{
+    margin: 3px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+.horizentalline{
+    width: 165.048px;
+    height: 2px;
+    background: #FFF;
+}
+.verticalline{
+    width: 2px;
+    height: 81px;
+    background: #FFF;
+}
+.console{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.l1, .l2{
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+.l1{
+    margin: 0 0 -12px -35px;
+}
+.last2 {
+    margin: 100px auto 0;
+    width: 420px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.bar {
+    width: 20px;
+    height: 2px; /* Initial height of bars */
+    background-color:rgb(255, 255, 255);
+    margin-right: 2px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transition: height 0.1s ease-in-out; /* Smooth transition for height */
+}
+
+

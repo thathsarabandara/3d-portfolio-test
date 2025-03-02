@@ -1,0 +1,38 @@
+$bars: 20;
+
+body {
+    background: #000;
+}
+
+.last2 {
+    margin: 100px auto 0;
+    width: #{$bars * 21}px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar {
+    width: 20px;
+    min-height: 10px;
+    margin-right: 1px;
+    box-shadow: 0 10px 15px #000;
+}
+
+$multiplier: 100 / $bars;
+
+@for $i from 0 through 5 {
+    .bar-#{$i} {
+        background-color: hsla(0, 100%, 50%);
+    }
+
+    @keyframes grow#{$i} {   // Error here if this is malformed
+        0% {
+            height: 20px;
+        }
+        100% {
+            height: 100px;
+        }
+    }
+}
+
