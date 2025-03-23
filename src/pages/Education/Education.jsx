@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import './Education.css';
-import TextReveal from '../../text_animations/TextReveal/TextReveal';
-import HackerEffect from '../../text_animations/HackerAnimations/HackerEffect';
-import EducationCard from '../../styled_component/CyberPunk Back/EducationCard';
+import TextReveal from '../../Components/text_animations/TextReveal/TextReveal';
+import HackerEffect from '../../Components/text_animations/HackerAnimations/HackerEffect';
+import EducationCard from '../../Components/styled_component/CyberPunk Back/EducationCard';
 
 function Education() {
 

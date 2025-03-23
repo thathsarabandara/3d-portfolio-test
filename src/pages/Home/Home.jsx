@@ -1,12 +1,12 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import './Home.css';
-import PageLoader from '../../loader_component/pageLoader/PageLoader';
-import WarShip from '../../3d_component/WarShip';
+import PageLoader from '../../Components/loader_component/pageLoader/PageLoader';
+import WarShip from '../../Components/3d_component/WarShip';
 import { Canvas } from '@react-three/fiber';
 import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei';
-import LoadingBackgroundMusic from '../../music_component/LoadingBackGroundMusic';
+import LoadingBackgroundMusic from '../../Components/music_component/LoadingBackGroundMusic';
 import file from '../../assets/royal_entry.mp3';
-import HomeBackgroundMusic from '../../music_component/HomeBackGroundMusic';
+import HomeBackgroundMusic from '../../Components/music_component/HomeBackGroundMusic';
 function Home() {
   const [text, setText] = useState('');
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -84,7 +84,7 @@ function Home() {
         <div className='name'>
           <hi>I am Thathsara Bandara</hi>
         </div>
-        <div className='name-subtext'>
+        <div className='text-4xl name-subtext'>
           Pioneering the Future of Computing as an Innovator at
           the University of Sri Jayewardenepura
         </div>

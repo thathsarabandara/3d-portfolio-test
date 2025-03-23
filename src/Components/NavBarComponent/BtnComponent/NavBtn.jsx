@@ -1,8 +1,8 @@
 import React from 'react';
 import './NavBtn.css';
-import soundFile from '../../assets/hover.mp3'
+import soundFile from '../../../assets/hover.mp3'
 import { Howl } from 'howler';
-import clickFile from '../../assets/transistion.mp3';
+import clickFile from '../../../assets/transistion.mp3';
 import { useNavigate } from 'react-router-dom';
 
 // Props-based NavBtn Component

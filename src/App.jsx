@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-route
 // Example Components for different routes
 import LoadingPage from './pages/Loading/LoadingPage';
 import Home from './pages/Home/Home';
-import LoadingBackgroundMusic from './music_component/LoadingBackGroundMusic';
+import LoadingBackgroundMusic from './Components/music_component/LoadingBackGroundMusic';
 import musicFile from './assets/transistion.mp3';
-import NavBar from './NavBarComponent/NavBar/NavBar';
+import NavBar from './Components/NavBarComponent/NavBar/NavBar';
 import Education from './pages/Education/Education';
 import Certification from './pages/Certification/Certification';
 import Skill from './pages/Skills/Skill';

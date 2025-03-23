@@ -1,7 +1,7 @@
 import React from 'react'
 import './PageLoader.css'
 import LoadingBackgroundMusic from '../../music_component/LoadingBackGroundMusic'
-import file from '../../assets/Loader.mp3';
+import file from '../../../assets/Loader.mp3';
 
 function PageLoader() {
   return (

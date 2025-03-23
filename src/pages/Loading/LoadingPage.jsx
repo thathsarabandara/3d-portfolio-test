@@ -1,10 +1,10 @@
 import { useState, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei';
-import LoadingBackgroundMusic from '../../music_component/LoadingBackGroundMusic';
+import LoadingBackgroundMusic from '../../Components/music_component/LoadingBackGroundMusic';
 import loadingMusic from '../../assets/loading_background_music.mp3';
-import Car from '../../3d_component/Car';
-import LoadingBar from '../../loader_component/loaderingBar/LoadingBar';
+import Car from '../../Components/3d_component/Car';
+import LoadingBar from '../../Components/loader_component/loaderingBar/LoadingBar';
 import './LoadingPage.css'
 
 function LoadingPage() {
